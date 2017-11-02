@@ -22,8 +22,8 @@ NTLX2_BEGIN
 class Result;
 
 NTLX2_CORESHARED_EXPORT Result initialize(
-    int argc = __argc
-    , char** argv = __argv
+    int argc = 0
+    , char** argv = Q_NULLPTR
     );
 
 NTLX2_CORESHARED_EXPORT void terminate();
